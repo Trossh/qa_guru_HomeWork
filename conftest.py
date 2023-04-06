@@ -9,5 +9,3 @@ def discovery():
 @pytest.fixture()
 def to_expand(discovery):
     browser.driver.set_window_size(1920, 1080)
-    yield
-    browser.driver.set_window_size(800, 600)

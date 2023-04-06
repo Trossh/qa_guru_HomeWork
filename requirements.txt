@@ -2,4 +2,4 @@ pytest
 
 allure-pytest
 
-Selene
+Selene==2.0.0b17
